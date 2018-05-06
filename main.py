@@ -5,9 +5,9 @@ import random
 ans = True
 
 while ans:
-    question = input("Ask the magic 8 ball a question:(press enter to quit)")
+    question = input("Ask the magic 10 ball a question:(press enter to quit)")
     
-    answers = random.randint(1, 8)
+    answers = random.randint(1, 10)
     
     if question == "":
         sys.exit()
@@ -34,7 +34,11 @@ while ans:
         print("My reply is no")
     
     elif answers == 8:
-        print("My sources say no")
-      
+        print("No way dude not going to happen")
     
-
+    elif answers == 9:
+        print("No way dude not going to happen")
+    
+    elif answers == 10:
+        print("You betcha")
+    
